@@ -8,7 +8,7 @@ void main() {
   di.init();
   runApp(MyApp());
 }
-//just pain 
+//no pain for today , i will start this project and finsh it in 24 hr 
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
