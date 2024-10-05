@@ -6,7 +6,7 @@ import 'package:dartz/dartz.dart';
 class Getallweatherdata {
   final Weatherrepo weatherrepo ;
 
-  Getallweatherdata({required this.weatherrepo});
+  Getallweatherdata(this.weatherrepo);
 
 
   Future<Either<Failure,List<Weatherentites>>>call() async{

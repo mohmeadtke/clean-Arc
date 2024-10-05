@@ -9,6 +9,8 @@ sealed class WeatherEvent extends Equatable {
 
 class GetWeatherEvent extends WeatherEvent{}
 
+class RefrieshWeatherEvent extends WeatherEvent{}
+
 class UpdateWeatherEvet extends WeatherEvent{
   final Weatherentites weatherentites ;
 
@@ -18,4 +20,3 @@ class UpdateWeatherEvet extends WeatherEvent{
   List<Object> get props => [weatherentites];
 }
 
-class RefrieshWeatherEvent extends WeatherEvent{}
