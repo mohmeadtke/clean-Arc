@@ -8,7 +8,7 @@ class Weatherentites extends Equatable{
   final double uv ;
   final double humidity;
 
-  Weatherentites({
+  const Weatherentites({
     required this.country,
      required this.region,
       required this.temp,

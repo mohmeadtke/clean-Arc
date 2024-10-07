@@ -1,6 +1,6 @@
 import 'package:clean_arc/feature/weather/domain/entites/weatherentites.dart';
 class Weathermodel extends Weatherentites{
-  Weathermodel({
+  const Weathermodel({
     required super.country,
      required super.region,
       required super.temp,
