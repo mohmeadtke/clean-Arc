@@ -1,22 +1,22 @@
-part of 'weather_bloc.dart';
+// part of 'weather_bloc.dart';
 
-sealed class WeatherEvent extends Equatable {
-  const WeatherEvent();
+// sealed class WeatherEvent extends Equatable {
+//   const WeatherEvent();
 
-  @override
-  List<Object> get props => [];
-}
+//   @override
+//   List<Object> get props => [];
+// }
 
-class GetWeatherEvent extends WeatherEvent{}
+// class GetWeatherEvent extends WeatherEvent{}
 
-class RefrieshWeatherEvent extends WeatherEvent{}
+// class RefrieshWeatherEvent extends WeatherEvent{}
 
-class UpdateWeatherEvet extends WeatherEvent{
-  final Weatherentites weatherentites ;
+// class UpdateWeatherEvet extends WeatherEvent{
+//   final Weatherentites weatherentites ;
 
-  UpdateWeatherEvet({required this.weatherentites});
+//   const UpdateWeatherEvet({required this.weatherentites});
 
-  @override
-  List<Object> get props => [weatherentites];
-}
+//   @override
+//   List<Object> get props => [weatherentites];
+// }
 

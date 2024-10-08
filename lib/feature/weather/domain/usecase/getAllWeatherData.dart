@@ -9,7 +9,7 @@ class Getallweatherdata {
   Getallweatherdata(this.weatherrepo);
 
 
-  Future<Either<Failure,List<Weatherentites>>>call() async{
+  Future<Either<Failure,Weatherentites>>call() async{
     return await weatherrepo.getAllWeatherData() ;
   }
 
